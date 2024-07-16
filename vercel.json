@@ -1,17 +1,4 @@
 {
-    "builds": [
-      {
-        "src": "foodMine-frontend/package.json",
-        "use": "@vercel/static-build",
-        "config": {
-          "distDir": "foodMine-frontend/dist"
-        }
-      },
-      {
-        "src": "foodmine-backend/package.json",
-        "use": "@vercel/node"
-      }
-    ],
     "routes": [
       {
         "src": "/api/(.*)",
@@ -23,4 +10,5 @@
       }
     ]
   }
+  
   
