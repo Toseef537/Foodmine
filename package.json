@@ -5,9 +5,9 @@
       "node": ">=18 <19"
     },
     "scripts": {
-      "dev": "cd frontend && npm start & cd backend && npm start",
-      "start": "cd backend/built && node server.js",
-      "prebuild": "cd backend && npm run build",
-      "build": "cd frontend && npm run build"
+      "dev": "cd foodMine-frontend && npm start & cd foodMine-backend && npm start",
+      "start": "cd foodMine-backend/built && node server.js",
+      "prebuild": "cd foodMine-backend && npm run build",
+      "build": "cd foodMine-frontend && npm run build"
     }
   }
