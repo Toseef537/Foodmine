@@ -1,0 +1,6 @@
+[submodule "foodMine-frontend"]
+	path = foodMine-frontend
+	url = https://github.com/Toseef537/foodMine-frontend.git
+[submodule "foodmine-backend"]
+	path = foodmine-backend
+	url = https://github.com/Toseef537/foodmine-backend.git
